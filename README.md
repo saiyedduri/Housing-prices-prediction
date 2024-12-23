@@ -1,1 +1,1 @@
-California Housing prices prediction:
+California Housing prices prediction
