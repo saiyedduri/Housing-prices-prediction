@@ -9,15 +9,18 @@ The descriptive statistics provide more insights into the features
 
 # Analysis from the house prices data:
 
-        Problems resolved from the analysis in Preprocessing:
+Problems resolved from the analysis in Preprocessing:
 
-        Missing Values: The total_bedrooms attribute had missing values in 207 districts, which required imputation.Inorder to minimize the distortion caused by the nan values, median imputation has been chosen.
+Missing Values: The total_bedrooms attribute had missing values in 207 districts, which required imputation.Inorder to minimize the distortion caused by the nan values, median imputation has been chosen.
 
-        Skewness: The median housing prices were skewed, suggesting the need for a logarithmic transformation.
+Skewness: The median housing prices were skewed, suggesting the need for a logarithmic transformation.
 
-        Scaling Issues: Features like median income, housing median age, and median house value were capped and scaled, indicating the necessity of standardization.
+Scaling Issues: Features like median income, housing median age, and median house value were capped and scaled, indicating the necessity of standardization.
     
-After preprocessing, the data is split into training data and test data constituting 80% and 20% respectively.
+After preprocessing, the data is split into training data and test data constituting 80% and 20% respectively. 
+
+The picture below indicates housing prices(by color) and density of population.
+![alt text](geo_viz.png)
 
 # Selection of the model:
 
@@ -27,7 +30,7 @@ However, to find the best regression model that generalizes on unseen data, cros
 
 # Performance of the Best Model
 
-    After cross-validation, the Random Forest Regressor (RF) emerged as the best-performing model with 97.8% R² score,indicating strong predictive accuracy and lowest MAE and MSE.
+After cross-validation, the Random Forest Regressor (RF) emerged as the best-performing model with 97.8% R² score,indicating strong predictive accuracy and lowest MAE and MSE.
 
 # Prediction of house prices:
    The trained random forest regression model predicts on unseen/test data with 96.7% R² score
