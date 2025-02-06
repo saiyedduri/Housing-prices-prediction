@@ -24,7 +24,7 @@ The picture below indicates housing prices(by color) and density of population(b
 
 # Selection of the model:
 
-However, to find the best regression model that generalizes on unseen data, cross validation strategy has been employed. In this strategy, the regression models are trained on different validation sets and identify the  metrics  R² score,mean absolute error, mean square error
+However, to find the best regression model that generalizes on unseen data, cross validation strategy has been employed. In this strategy, the regression models are trained on different validation sets and identify the  metrics  R² score,mean absolute error, mean square error and mean absolute percentage error.
 
 ![alt text](comparision_metrics.png)
 
