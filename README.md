@@ -2,7 +2,7 @@
 Project aims to develop an end-end prediction model which could predict median house value in California during 1995.
 
 # Overview of dataset:
-The housing prices dataset 🏠 consists of 20640 instances and 10 features, including the target variable "median housing prices".
+The housing prices dataset 🏠 consists of 20640 instances and 10 features, including the target variable "median house value".
 The remaining 9 features include geographical location, indicated by  latitude and longitude parameters,median,ocean proximity,number of households, population,median income,median age,total number of rooms, total number of bedrooms.
 
 The descriptive statistics provide more insights into the features
