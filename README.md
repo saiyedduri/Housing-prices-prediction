@@ -19,7 +19,7 @@ Scaling Issues: Features like median income, housing median age, and median hous
     
 After preprocessing, the data is split into training data and test data constituting 80% and 20% respectively. 
 
-The picture below indicates housing prices(by color) and density of population.
+The picture below indicates housing prices(by color) and density of population(by marker size).
 ![alt text](geo_viz.png)
 
 # Selection of the model:
