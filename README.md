@@ -7,7 +7,6 @@ The remaining 9 features include geographical location, indicated by  latitude a
 
 The descriptive statistics provide more insights into the features
 ![alt text](descriptive_statistics.png)
-
 # Analysis from the house prices data:
 
 Problems resolved from the analysis in Preprocessing:
