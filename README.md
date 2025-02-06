@@ -6,7 +6,7 @@ The housing prices dataset consists of 20640 instances and 10 features, includin
 The remaining 9 features include geographical location, indicated by  latitude and longitude parameters,median,ocean proximity,number of households, population,median income,median age,total number of rooms, total number of bedrooms.
 
 The descriptive statistics provide more insights into the features
-![alt text](descriptive_statistics.png)
+![alt text](images/descriptive_statistics.png)
 # Analysis from the house prices data:
 
 Problems resolved from the analysis in Preprocessing:
@@ -20,13 +20,13 @@ Scaling Issues: Features like median income, housing median age, and median hous
 After preprocessing, the data is split into training data and test data constituting 80% and 20% respectively. 
 
 The picture below indicates housing prices(by color) and density of population(by marker size).
-![alt text](geo_viz.png)
+![alt text](images/geo_viz.png)
 
 # Selection of the model:
 
 However, to find the best regression model that generalizes on unseen data, cross validation strategy has been employed. In this strategy, the regression models are trained on different validation sets and identify the  metrics  R² score,mean absolute error, mean square error and mean absolute percentage error.
 
-![alt text](comparision_metrics.png)
+![alt text](images/comparision_metrics.png)
 
 # Performance of the Best Model
 
