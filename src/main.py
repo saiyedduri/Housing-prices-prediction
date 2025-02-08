@@ -165,5 +165,9 @@ if __name__ == "__main__":
                             dataset_folder="datasets/housing_data")
     pipeline.run_pipeline()
     best_model=RandomForestRegressor()
-    pipeline.predict_targets(best_model)
-    pipeline.compute_accuracy()
+    y_pred=pipeline.predict_targets(best_model)
+    display(pd.DataFrame({"Actual_house_prices($)":pipeline.y_test_act,
+              "Predicted_house_prices($)":y_pred
+              }))
+    accuracy=pipeline.compute_accuracy()
+    print(f"The accuracy of the best model selcted is {accuracy*100}%")
