@@ -5,7 +5,7 @@ Project aims to develop an end-end prediction model which could predict median h
 The housing prices dataset 🏠 consists of 20640 instances and 10 features, including the target variable "median house value".
 The remaining 9 features include geographical location, indicated by  latitude and longitude parameters,ocean proximity,number of households, population,median income,median age,total number of rooms, total number of bedrooms.
 
-The descriptive statistics provide more insights into the features
+The descriptive statistics provide more insights into the features.
 ![alt text](images/descriptive_statistics.png)
 # Analysis from the house prices data:
 
